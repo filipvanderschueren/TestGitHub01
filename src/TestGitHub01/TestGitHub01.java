@@ -15,6 +15,9 @@ public class TestGitHub01 {
     {
         SomeText s = new SomeText("hello");
         System.out.println("Show text :" + s.getText());
+        Value v = new Value();
+        v.setValue(8);
+        System.out.println("Show value :" + v.getValue());
     }
     
 }
