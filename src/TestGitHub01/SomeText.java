@@ -9,12 +9,20 @@ package TestGitHub01;
  *
  * @author FVanderSchueren
  */
-public class TestGitHub01 {
-    
-    public static void main(String[] args)
-    {
-        SomeText s = new SomeText("hello");
-        System.out.println("Show text :" + s.getText());
+public class SomeText {
+    private String text;
+
+    public SomeText(String text) {
+        this.text = text;
     }
+
+    public String getText() {
+        return text;
+    }
+
+    public void setText(String text) {
+        this.text = text;
+    }
+    
     
 }
