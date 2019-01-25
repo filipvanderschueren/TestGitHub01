@@ -10,11 +10,11 @@ package TestGitHub01;
  * @author FVanderSchueren
  */
 public class Value {
-    private int value;
+    private Integer value;
 
     //defaut constructor
 
-    public Value(int value) {
+    public Value(Integer value) {
         this.value = value;
     }
     
@@ -23,9 +23,8 @@ public class Value {
         return value;
     }
 
-    public void setValue(int value) {
+    public void setValue(Integer value) {
         this.value = value;
     }
-    
     
 }
