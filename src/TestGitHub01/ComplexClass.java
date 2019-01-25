@@ -4,6 +4,7 @@ GitHub Demo
 package TestGitHub01;
 
 import java.util.ArrayList;
+import java.util.List;
 
 /**
  *
@@ -14,6 +15,7 @@ public class ComplexClass {
     private ArrayList<Value> list;
 
     public ComplexClass() {
+        List list = new ArrayList<>();
     }
     public void addToList(Value v)
     {
