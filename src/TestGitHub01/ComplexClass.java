@@ -15,7 +15,7 @@ public class ComplexClass {
     private ArrayList<Value> list;
 
     public ComplexClass() {
-        List list = new ArrayList<>();
+        list = new ArrayList<>();
     }
     public void addToList(Value v)
     {
